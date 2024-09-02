@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: 'Montserrat';
+}
+.only::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a cor e a opacidade */
+    z-index: 0; /* Garante que o overlay fique sobre a imagem de fundo */
+  }
+  ::-webkit-scrollbar{
+    width: 4px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+}
